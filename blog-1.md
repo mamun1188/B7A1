@@ -2,7 +2,7 @@
 
 ## Introduction
 
-TypeScript helps uss catch errors before running code by checking types. However, not all types provide the same level of safety. Two special types in TypeScript are any and unknown.
+TypeScript helps us catch errors before running code by checking types. However, not all types provide the same level of safety. Two special types in TypeScript are any and unknown.
 Although both can store any kind of value, they behave very differently. The any type removes TypeScript’s protection, while unknown keeps the program safe by forcing proper checks before using a value.
 
 ## Why any Is Called a “Type Safety Hole”
