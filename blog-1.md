@@ -1,4 +1,4 @@
-Why any Is Called a “Type Safety Hole” and Why unknown Is Safer in TypeScript
+# Why any Is Called a “Type Safety Hole” and Why unknown Is Safer in TypeScript
 Introduction
 
 TypeScript helps developers catch errors before running code by checking types. However, not all types provide the same level of safety. Two special types in TypeScript are any and unknown.
