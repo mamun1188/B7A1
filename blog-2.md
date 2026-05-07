@@ -1,13 +1,13 @@
 # How Generics Allow You to Build Reusable Components and Functions That Stay Strictly Typed
 ## Introduction
 
-In TypeScript, generics let you write flexible code that still keeps strong type safety. Instead of locking a function or class to one specific type, generics allow it to work with any type while remembering what that type is.
+In TypeScript, generics let us write flexible code that still keeps strong type safety. Instead of locking a function or class to one specific type, generics allow it to work with any type while remembering what that type is.
 
-This makes your code reusable, scalable, and safe at the same time.
+This makes our code reusable, scalable, and safe at the same time.
 
 ## What Problem Do Generics Solve?
 
-Without generics, you often end up repeating code for different types or losing type safety using any.
+Without generics, we often end up repeating code for different types or losing type safety using any.
 
 Without Generics
 ```
@@ -16,13 +16,13 @@ return value;
 }
 
 const result = identity("Hello");
-result.toUpperCase(); // no type safety
+result.toUpperCase(); 
 ```
 Here, TypeScript cannot guarantee what result is.
 
 ## How Generics Fix This Problem
 
-Generics allow you to “capture” the type and reuse it safely.
+Generics allow us to “capture” the type and reuse it safely.
 
 Generic Function Example
 ```
@@ -38,7 +38,7 @@ What is happening?
 * TypeScript remembers what T becomes
 * The return type matches the input type
 
-So if you pass a string, you get a string back. If you pass a number, you get a number back.
+So if we pass a string, we get a string back. If we pass a number, we get a number back.
 
 ## Generics in Arrays
 
@@ -71,6 +71,6 @@ Now the same structure works for users, products, or any other data type.
 
 ## Conclusion
 
-Generics in TypeScript allow you to build reusable and flexible code without losing type safety. They help functions, classes, and interfaces work with different data types while still preserving strict typing.
+Generics in TypeScript allow us to build reusable and flexible code without losing type safety. They help functions, classes, and interfaces work with different data types while still preserving strict typing.
 
 Instead of writing multiple versions of the same logic or using unsafe any, generics give you a clean and scalable solution for modern TypeScript development.
